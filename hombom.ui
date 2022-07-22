@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1162</width>
-    <height>785</height>
+    <width>1926</width>
+    <height>709</height>
    </rect>
   </property>
   <property name="palette">
@@ -456,35 +456,264 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_5">
-   <item row="4" column="0">
-    <layout class="QGridLayout" name="gridLayout_3">
-     <item row="3" column="3">
-      <widget class="PyDMLabel" name="PyDMLabel">
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="3" column="4">
+      <widget class="PyDMLabel" name="PyDMLabel_20">
        <property name="toolTip">
         <string/>
        </property>
-       <property name="pixmap">
-        <pixmap>l0b.png</pixmap>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS3</string>
        </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="PyDMLabel" name="PyDMLabel_3">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="PyDMLabel" name="PyDMLabel_6">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="PyDMLabel" name="PyDMLabel_7">
+       <property name="palette">
+        <palette>
+         <active/>
+         <inactive/>
+         <disabled/>
+        </palette>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity Number</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="9">
+      <widget class="PyDMLabel" name="PyDMLabel_30">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="PyDMLabel" name="PyDMLabel_26">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="PyDMLabel" name="PyDMLabel_13">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="PyDMLabel" name="PyDMLabel_22">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="PyDMLabel" name="PyDMLabel_17">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="PyDMLabel" name="PyDMLabel_12">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="PyDMLabel" name="PyDMLabel_14">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="PyDMLabel" name="PyDMLabel_25">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="PyDMLabel" name="PyDMLabel_5">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="PyDMLabel" name="PyDMLabel_8">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Up stream</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string/>
+       </property>
+       <property name="displayFormat" stdset="0">
+        <enum>PyDMLabel::Decimal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="PyDMLabel" name="PyDMLabel_19">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 3</string>
        </property>
       </widget>
      </item>
      <item row="4" column="3">
-      <widget class="QLabel" name="label">
-       <property name="font">
-        <font>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
+      <widget class="PyDMLabel" name="PyDMLabel_4">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="PyDMLabel" name="PyDMLabel_9">
+       <property name="toolTip">
+        <string/>
        </property>
        <property name="text">
-        <string>L0B</string>
+        <string>Cavity 1</string>
        </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="PyDMLabel" name="PyDMLabel_27">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="PyDMLabel" name="Cavity4">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="8">
+      <widget class="PyDMLabel" name="PyDMLabel_29">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="PyDMLabel" name="cavity1_upstream">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="9">
+      <widget class="PyDMLabel" name="PyDMLabel_31">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="PyDMLabel" name="PyDMLabel_15">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="8">
+      <widget class="PyDMLabel" name="PyDMLabel_28">
+       <property name="toolTip">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="PyDMLabel" name="PyDMLabel_18">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="PyDMLabel" name="PyDMLabel_10">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cavity 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="PyDMLabel" name="PyDMLabel_2">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Down stream </string>
        </property>
       </widget>
      </item>
@@ -531,6 +760,15 @@
           </color>
          </brush>
         </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
+           <red>2</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </brush>
+        </colorrole>
        </active>
        <inactive>
         <colorrole role="WindowText">
@@ -566,6 +804,15 @@
            <red>11</red>
            <green>11</green>
            <blue>11</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
+           <red>2</red>
+           <green>4</green>
+           <blue>4</blue>
           </color>
          </brush>
         </colorrole>
@@ -607,6 +854,15 @@
           </color>
          </brush>
         </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
+           <red>2</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </brush>
+        </colorrole>
        </disabled>
       </palette>
      </property>
@@ -630,90 +886,6 @@
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-   </item>
-   <item row="3" column="0">
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QProgressBar" name="progressBar_8">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_7">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_6">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_5">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_4">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_3">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_2">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar">
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-     </item>
-    </layout>
    </item>
    <item row="5" column="0">
     <layout class="QGridLayout" name="gridLayout_4">
@@ -800,132 +972,138 @@
      </item>
     </layout>
    </item>
-   <item row="1" column="0">
-    <layout class="QGridLayout" name="gridLayout_2">
-     <item row="2" column="4">
-      <widget class="PyDMLabel" name="PyDMLabel_19">
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Cavity 3</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="3">
-      <widget class="PyDMLabel" name="PyDMLabel_10">
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Cavity 2</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="2">
-      <widget class="PyDMLabel" name="PyDMLabel_9">
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Cavity 1</string>
-       </property>
-      </widget>
-     </item>
+   <item row="4" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
      <item row="3" column="3">
-      <widget class="PyDMLabel" name="PyDMLabel_12">
+      <widget class="PyDMLabel" name="cmimage">
        <property name="toolTip">
         <string/>
        </property>
-      </widget>
-     </item>
-     <item row="3" column="4">
-      <widget class="PyDMLabel" name="PyDMLabel_20">
-       <property name="toolTip">
-        <string/>
+       <property name="pixmap">
+        <pixmap>HOM_Sketches_Cryomodule.png</pixmap>
        </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="PyDMLabel" name="PyDMLabel_11">
-       <property name="toolTip">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="PyDMLabel" name="PyDMLabel_2">
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Down stream </string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="PyDMLabel" name="PyDMLabel_8">
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Up stream</string>
-       </property>
-       <property name="precision" stdset="0">
-        <number>0</number>
-       </property>
-       <property name="showUnits" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="channel" stdset="0">
-        <string/>
-       </property>
-       <property name="displayFormat" stdset="0">
-        <enum>PyDMLabel::Decimal</enum>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="PyDMLabel" name="PyDMLabel_7">
-       <property name="palette">
-        <palette>
-         <active/>
-         <inactive/>
-         <disabled/>
-        </palette>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>Cavity Number</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="2">
-      <widget class="PyDMLabel" name="PyDMLabel_3">
-       <property name="toolTip">
-        <string/>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
      <item row="4" column="3">
-      <widget class="PyDMLabel" name="PyDMLabel_4">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>L0B</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="PyDMLabel" name="PyDMLabel">
        <property name="toolTip">
         <string/>
        </property>
       </widget>
      </item>
-     <item row="4" column="4">
-      <widget class="PyDMLabel" name="PyDMLabel_5">
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity1_scale">
        <property name="toolTip">
         <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS1</string>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity2_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS2</string>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity3_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS3</string>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity4_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS4</string>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity5_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity6_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity7_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMScaleIndicator" name="cavity8_scale">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Vertical</enum>
        </property>
       </widget>
      </item>
@@ -938,6 +1116,11 @@
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
    <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMScaleIndicator</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.scale</header>
   </customwidget>
  </customwidgets>
  <resources/>
