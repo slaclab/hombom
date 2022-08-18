@@ -982,6 +982,9 @@
        <property name="pixmap">
         <pixmap>HOM_Sketches_Cryomodule.png</pixmap>
        </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
