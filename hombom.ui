@@ -1188,6 +1188,9 @@
        <property name="toolTip">
         <string/>
        </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS5</string>
+       </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
@@ -1220,6 +1223,9 @@
       <widget class="PyDMScaleIndicator" name="cavity6_scale">
        <property name="toolTip">
         <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS6</string>
        </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
@@ -1254,6 +1260,9 @@
        <property name="toolTip">
         <string/>
        </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS7</string>
+       </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
@@ -1286,6 +1295,9 @@
       <widget class="PyDMScaleIndicator" name="cavity8_scale">
        <property name="toolTip">
         <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>SCOP:AMRF:RF01:AI_MEAS8</string>
        </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
