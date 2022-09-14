@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1926</width>
-    <height>709</height>
+    <height>872</height>
    </rect>
   </property>
   <property name="palette">
@@ -1042,10 +1042,33 @@
         <enum>Qt::Vertical</enum>
        </property>
        <property name="flipScale" stdset="0">
-        <bool>true</bool>
+        <bool>false</bool>
+       </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
        </property>
        <property name="originAtZero" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
         <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
        </property>
       </widget>
      </item>
@@ -1060,6 +1083,32 @@
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="originAtZero" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
       </widget>
      </item>
      <item>
@@ -1072,6 +1121,29 @@
        </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
+       </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
        </property>
       </widget>
      </item>
@@ -1086,6 +1158,29 @@
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
       </widget>
      </item>
      <item>
@@ -1095,6 +1190,29 @@
        </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
+       </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
        </property>
       </widget>
      </item>
@@ -1106,6 +1224,29 @@
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
       </widget>
      </item>
      <item>
@@ -1116,6 +1257,29 @@
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
        </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
       </widget>
      </item>
      <item>
@@ -1125,6 +1289,29 @@
        </property>
        <property name="orientation" stdset="0">
         <enum>Qt::Vertical</enum>
+       </property>
+       <property name="backgroundColor" stdset="0">
+        <color>
+         <red>204</red>
+         <green>204</green>
+         <blue>204</blue>
+        </color>
+       </property>
+       <property name="indicatorColor" stdset="0">
+        <color>
+         <red>64</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </property>
+       <property name="limitsFromChannel" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="userLowerLimit" stdset="0">
+        <double>-100.000000000000000</double>
+       </property>
+       <property name="userUpperLimit" stdset="0">
+        <double>0.000000000000000</double>
        </property>
       </widget>
      </item>
