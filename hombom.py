@@ -1,5 +1,6 @@
 from pydm import Display
 from PyQt5 import QtGui
+from pydm.widget import PYDMScaleIndicator
 import numpy as np
 
 class HomBom(Display):
@@ -9,9 +10,6 @@ class HomBom(Display):
 
     def ui_filename(self):
         return 'hombom.ui'
-
-    def absPV(self, PV):
-        return np.abs(PV)
 
     #def resizeImageWithQT(pixmapname, dest):
     #    #https://stackoverflow.com/questions/21802868/python-how-to-resize-raster-image-with-pyqt
